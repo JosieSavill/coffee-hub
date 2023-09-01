@@ -29,7 +29,7 @@
 <br>
 <br>
 
-COFFEE HUB is a react app that is deployed to GitHub Pages.  This application is a place where gourmet coffee houses can be located when on the go.
+COFFEE HUB is deployed to GitHub Pages.  This application is a place where gourmet coffee houses can be located when on the go.
 
 Technologies used in building this site were HTML, CSS and JavaScript.
 
