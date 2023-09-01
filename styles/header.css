@@ -77,9 +77,10 @@
     border-color: rgba(53, 6, 6, 0.856);
 }
 
-.search-button,
-.voice-search-button
-.upload-icon-container {
+
+.voice-search-button,
+.uber-eats-icon-container,
+.door-dash-icon-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,7 +89,9 @@
 
 .search-button .tooltip,
 .voice-search-button .tooltip,
-.upload-icon-container .tooltip {
+.uber-eats-icon-container .tooltip,
+.door-dash-icon-container .tooltip,
+.lyft-icon-container .tooltip {
     font-family: Roboto, Arial;
     position: absolute;
     background-color: gray;
@@ -103,8 +106,9 @@
 
 .search-button:hover .tooltip,
 .voice-search-button:hover .tooltip,
-.upload-icon-container:hover .tooltip,
-.youtube-apps-icon:hover .tooltip {
+.uber-eats-icon-container:hover .tooltip,
+.door-dash-icon-container:hover .tooltip,
+.lyft-icon-container:hover .tooltip {
     opacity: 1;
 }
 
@@ -129,26 +133,38 @@
 
 .right-section {
     width: 30%;
+    height: 100%;
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: space-evenly;
-    /* margin-right: 20px; */
+    align-items: center;
+    /* justify-content: space-evenly; */
+    padding-left: 20px;
+    column-gap: 5%;
     flex-shrink: 0;
 }
 
-.upload-icon {
-    height: 24px;
+.uber-eats-icon,
+.door-dash-icon,
+.lyft-icon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    width: 30%;
+   
 }
 
-.youtube-apps-icon {
-    height: 24px;
+.door-dash-icon {
+    width: 30%;
 }
 
-.notifications-icon {
-    height: 24px;
+.lyft-icon {
+    width: 30%;
+    padding-left: 35%;
 }
 
-.notification-icon-container {
+/* .notification-icon-container {
     position: relative;
 }
 
@@ -165,9 +181,9 @@
     padding-top: 2px;
     padding-bottom: 2px;
     border-radius: 10px;
-}
+} */
 
-.current-user-picture {
+/* .current-user-picture {
     height: 32px;
     border-radius: 16px;
-}
+} */
