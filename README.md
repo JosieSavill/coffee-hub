@@ -29,7 +29,7 @@
 <br>
 <br>
 
-COFFEE HUB is deployed to GitHub Pages.  This application is a place where gourmet coffee houses can be located when on the go.
+COFFEE HUB is a place where gourmet coffee houses can be located when on the go.
 
 Technologies used in building this site were HTML, CSS and JavaScript.
 
@@ -41,7 +41,7 @@ Technologies used in building this site were HTML, CSS and JavaScript.
 
 To view the site click on  GitHub deployed link at bottom of README.
 
-The nav bar provides links to your own lists of your favorites, library of coffees.
+The nav bar provides links to your own lists of your favorites, and also to libraries of coffee houses yet to explore.
 
  
 
