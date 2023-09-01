@@ -53,7 +53,7 @@
 
 .search-bar {
     flex: 1;
-    height: 30%;
+    height: 20%;
     padding-left: 10px;
     font-size: 18px;
     border: 2px solid rgb(68, 5, 5);
@@ -68,7 +68,7 @@
 }
 
 .search-button {
-    height: 35%;
+    height: 26%;
     width: 10%;
     background-color: rgb(240, 240, 240);
     border-width: 4px;
