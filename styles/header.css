@@ -22,24 +22,17 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    
-    
-}
-
-.hamburger-menu { 
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 40%;
-    width: 70%;
-    
+    width: 10%;
+    padding-left: 5%;
 }
 
 .coffee-house-logo {
     height: 100%;
     width: 100%;
-    
-    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0;
 }
 
 .middle-section {
@@ -48,23 +41,36 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-left: 10%;
+    column-gap: 5%;
+}
+
+.search-bar-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    padding-top: 20%;
+    height: 100%;
+    width: 100%;
+    column-gap: 0;
 }
 
 .search-bar {
     flex: 1;
     height: 30%;
-    padding-left: 10px;
+    padding-left: 5%;
     font-size: 18px;
     border: solid rgba(53, 6, 6, 0.856);
     border-radius: 20px 0 0 20px;
     border-width: 4px 1px 4px 4px;
     width: 0;
+    
 }
 
 .search-bar::placeholder {
     font-family: Roboto, Arial;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .search-button {
@@ -77,15 +83,71 @@
     border-color: rgba(53, 6, 6, 0.856);
 }
 
+.search-icon {
+    height: 60%;
+}
 
-.voice-search-button,
+.voice-search-button-container {
+    flex: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding-top: 2%;
+    height:30%;
+    width: 10%;
+}
+
+.voice-search-button {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 90px;
+    border: none;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(172, 162, 162);
+}
+
+.voice-search-icon {
+    height: 100%;
+    padding: 5%;
+    
+    
+}
+
+
+.right-section {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    padding-left: 2%;
+    /* column-gap: 2%; */
+    /* flex-shrink: 0; */
+}
+
+
 .uber-eats-icon-container,
-.door-dash-icon-container {
+.door-dash-icon-container,
+.lyft-icon-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    /* position: relative; */
+    height: 100%;
+    width: 100%;
 }
+
+
 
 .search-button .tooltip,
 .voice-search-button .tooltip,
@@ -96,7 +158,7 @@
     position: absolute;
     background-color: gray;
     color: white;
-    font-size: 12px;
+    font-size: 22px;
     /* bottom: -30px; */
     opacity: 0;
     transition: opacity 0.15s;
@@ -112,55 +174,21 @@
     opacity: 1;
 }
 
-.search-icon {
-    height: 25px;
-    
-}
 
-.voice-search-button {
-    height: 40px;
-    width: 40px;
-    border-radius: 20px;
-    border: none;
-    background-color: rgb(245, 245, 245);
-}
 
-.voice-search-icon {
-    height: 24px;
-    
-    
-}
 
-.right-section {
-    width: 30%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    /* justify-content: space-evenly; */
-    padding-left: 20px;
-    column-gap: 5%;
-    flex-shrink: 0;
-}
 
 .uber-eats-icon,
 .door-dash-icon,
 .lyft-icon {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-items: center;
-    width: 30%;
+    padding: 0;
+    width: 40%;
+    height: 60%;
    
 }
 
-.door-dash-icon {
-    width: 30%;
-}
-
-.lyft-icon {
-    width: 30%;
-    padding-left: 35%;
-}
 
