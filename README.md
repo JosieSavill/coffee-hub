@@ -9,7 +9,7 @@
 
 
 
-![Desktop Img](/channel-pictures/coffee-hub.jpg) 
+![Desktop Img](./thumbnails/coffee-house-j.jpg) 
 
 
  
