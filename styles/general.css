@@ -1,5 +1,5 @@
 p {
-    
+    color: black;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -7,10 +7,22 @@ p {
 
 body {
     font-family: Roboto, Arial;
-    margin: 0;
+    /* margin: 0;
     padding-top: 80px;
     padding-left: 96px;
-    padding-right: 24px;
+    padding-right: 24px; */
+    display: flex;
+    flex-direction: rows;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 10%;
+    column-gap: 2%;
+    height: 100%;
+    width: 100%;
+    padding-top: 10%;
+    padding-left: 6%;
+    padding-right: 1%;
+    /* background-color: rgba(53, 6, 6, 0.856); */
     background-color: rgb(83, 80, 80);
     
 }
