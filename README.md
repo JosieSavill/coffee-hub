@@ -3,7 +3,7 @@
 
 <br>
 
-![Desktop Img](./thumbnails/coffee-house-cc.jpg) 
+![Desktop Img](./thumbnails/coffee-hub-desktop.png) 
 
  COFFEE HUB is a place where gourmet coffee houses can be located when on the go.  
  
