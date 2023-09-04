@@ -1,5 +1,5 @@
 .header {
-    height: 20%;
+    height: 75px;
     position: fixed;
     top: 0;
     left: 0;
@@ -12,6 +12,7 @@
     border-bottom-style: solid;
     border-bottom-color: rgb(224, 224, 224);
     z-index: 100;
+    padding: 20px 0px;
     
 }
 
@@ -23,7 +24,7 @@
     align-items: center;
     height: 100%;
     width: 10%;
-    padding-left: 5%;
+    padding-left: 10px;
 }
 
 .coffee-house-logo {
@@ -174,7 +175,17 @@
 }
 
 
+/*
+remove all the borders
+remove all the height percentge to auto
+border roundness to the parent div
+.search-bar-container
+add padding to search-bar-container
 
+
+
+
+*/
 
 
 .uber-eats-icon,
@@ -186,7 +197,7 @@
     justify-items: center;
     padding: 0;
     width: 40%;
-    height: 60%;
+    height: auto;
     background-color: transparent;
    
 }
