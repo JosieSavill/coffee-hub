@@ -5,8 +5,8 @@
     top: 55px;
     background-color: white;
     width: 5%;
-    z-index: 200;
-    padding-top: 5px;
+    z-index: 100;
+    padding-top: 30px;
 }
 
 .sidebar-link {
