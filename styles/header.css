@@ -93,7 +93,8 @@ add padding to search-bar-container
 }
 
 .search-icon {
-    height: 60%;
+    height: auto;
+    width: 100%;
 }
 
 .voice-search-button-container {
@@ -115,10 +116,10 @@ add padding to search-bar-container
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    border-radius: 90px;
+    border-radius: 120px;
     border: none;
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: 60px;
     background-color: rgb(172, 162, 162);
 }
 
