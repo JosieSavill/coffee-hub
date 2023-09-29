@@ -26,3 +26,19 @@ body {
     background-color: rgb(83, 80, 80);
     
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+/* @media (max-width: 900) {
+    main {
+        padding-top: 30%;
+    }
+} */
+
+    
+

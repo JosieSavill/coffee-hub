@@ -7,7 +7,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    row-gap: 20px;
+    /* row-gap: 20px; */
     background-color: white;
     width: 5%;
     z-index: 100;
@@ -21,11 +21,8 @@
     height: 74px;
     flex-direction: column;
     cursor: pointer;
-
 }
     
-
-
 .sidebar-link:hover {
     background-color: rgb(235, 235, 235);
 }
@@ -33,13 +30,27 @@
 .sidebar-link img {
     height: 24px;
     margin-bottom: 4px;
-
 }
 
 .sidebar-link div {
     font-family: Roboto, Arial;
     font-size: 10px;
-    
-
 }
+
+@media (max-width: 600) {
+    .sidebar {
+        height: 100%;
+        
+    }
+}
+
+
+
+/* 
+@media (max-width: 600px) {
+    .sidebar {
+        top: 0;
+        
+    }
+} */
  

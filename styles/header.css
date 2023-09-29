@@ -183,4 +183,12 @@ add padding to search-bar-container
     background-repeat: no-repeat;
 }
 
+/* @media (max-width: 600){
+    .left-section {
+       padding-bottom: 30px;
+       
+    }
+   
+} */
+
 
