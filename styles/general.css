@@ -4,13 +4,20 @@ p {
     margin-bottom: 0;
 }
 
+*{
+    box-sizing: border-box;
+}
+
 
 body {
     font-family: Roboto, Arial;
+    width: 100%;
+    margin: 0px;
+
     /* margin: 0;
     padding-top: 80px;
     padding-left: 96px;
-    padding-right: 24px; */
+    padding-right: 24px; 
     display: flex;
     flex-direction: rows;
     flex-wrap: wrap;
@@ -21,7 +28,7 @@ body {
     width: 100%;
     padding-top: 10%;
     padding-left: 6%;
-    padding-right: 1%;
+    padding-right: 1%;*/
     /* background-color: rgba(53, 6, 6, 0.856); */
     background-color: rgb(83, 80, 80);
     
@@ -32,13 +39,14 @@ main {
     flex-direction: column;
     justify-content: center;
     padding-top: 40px;
+    padding-left: 40px;
 }
 
-/* @media (max-width: 900) {
+ @media (max-width: 600px) {
     main {
-        padding-top: 30%;
+        padding-left: 0px;
     }
-} */
+} 
 
     
 
