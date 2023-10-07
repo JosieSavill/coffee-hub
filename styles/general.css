@@ -44,9 +44,16 @@ main {
     padding-bottom: 10%;
 }
 
+@media (max-width: 1200px) {
+    main {
+        padding-top: 15%;
+    }
+} 
+
+
  @media (max-width: 600px) {
     main {
-        padding-left: 0px;
+        padding-right: 15%;
     }
 } 
 
