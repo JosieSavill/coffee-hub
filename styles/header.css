@@ -14,6 +14,14 @@
     z-index: 200;
 }
 
+@media (max-width: 1200px){
+    .header{
+        padding-right: 40px;
+    }
+}
+
+
+
 @media (max-width:600px){
     .header{
         position: relative;
@@ -31,6 +39,9 @@
     width: 200px;
     padding-left: 30px;
 }
+
+
+
 
 @media (max-width:600px){
     .left-section{
@@ -167,6 +178,9 @@ add padding to search-bar-container
 }
 
 
+
+
+
 .uber-eats-icon-container,
 .door-dash-icon-container,
 .lyft-icon-container {
@@ -212,6 +226,16 @@ add padding to search-bar-container
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+@media (max-width: 1200px){
+    .uber-eats-icon,
+    .door-dash-icon,
+    .lyft-icon {
+        width: 60px;
+        height: 60px;
+    }
+}
+
 
 @media (max-width: 600px){
     .uber-eats-icon,
