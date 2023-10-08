@@ -27,6 +27,14 @@
     }
 }
 
+@media (max-width: 600px){
+    .header {
+       justify-content: space-around;
+    }
+
+}
+
+
 
 
 @media (max-width:600px){
@@ -91,6 +99,13 @@
         padding-left: 0;
         padding-right: 40px;
         margin: 0;
+    }
+}
+
+@media (max-width: 600px){
+    .middle-section {
+        width: auto;
+        padding-right: 0;
     }
 }
 
