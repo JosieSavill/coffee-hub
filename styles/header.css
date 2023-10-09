@@ -27,20 +27,14 @@
     }
 }
 
-@media (max-width: 600px){
-    .header {
-       justify-content: space-around;
-    }
-
-}
-
-
-
-
 @media (max-width:600px){
     .header{
         position: relative;
         margin: 0 auto;
+        /* flex-direction: column; */
+        justify-content: space-evenly; 
+        padding-right: 0;
+        padding-left: 0;
     }
 }
 
@@ -56,15 +50,11 @@
 }
 
 
-
-
-
-
-
-
 @media (max-width:600px){
     .left-section{
-        width: 72px;
+        justify-content: start;
+        width:  80px;
+        padding-left: 0;
     }
 }
 
@@ -77,8 +67,8 @@
 
 @media (max-width:600px){
     .coffee-house-logo {
-        width: 70px;
-        height: 70px;
+        width: 60px;
+        height: 60px;
 
 
     }
@@ -105,7 +95,8 @@
 @media (max-width: 600px){
     .middle-section {
         width: auto;
-        padding-right: 0;
+        padding-right: 20px;
+        
     }
 }
 
@@ -193,6 +184,7 @@ add padding to search-bar-container
 @media (max-width: 600px) {
     .voice-search-button {
         width: 40px;
+        
 
     }
 }
@@ -273,10 +265,10 @@ add padding to search-bar-container
 
 @media (max-width: 600px){
     .uber-eats-icon,
-.door-dash-icon,
-.lyft-icon {
-    width: 40px;
-    height: 40px;
+    .door-dash-icon,
+    .lyft-icon {
+    width: 30px;
+    height: 30px;
 }
    
 } 
