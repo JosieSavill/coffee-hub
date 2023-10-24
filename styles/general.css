@@ -1,7 +1,8 @@
 p {
-    color: black;
+    color: white;
     margin-top: 0;
     margin-bottom: 0;
+    
 }
 
 *{
@@ -13,23 +14,6 @@ body {
     font-family: Roboto, Arial;
     width: 100%;
     margin: 0px;
-
-    /* margin: 0;
-    padding-top: 80px;
-    padding-left: 96px;
-    padding-right: 24px; 
-    display: flex;
-    flex-direction: rows;
-    flex-wrap: wrap;
-    justify-content: center;
-    row-gap: 10%;
-    column-gap: 2%;
-    height: 100%;
-    width: 100%;
-    padding-top: 10%;
-    padding-left: 6%;
-    padding-right: 1%;*/
-    /* background-color: rgba(53, 6, 6, 0.856); */
     background-color: rgb(83, 80, 80);
     
 }
@@ -51,7 +35,7 @@ main {
 } 
 
 
- @media (max-width: 600px) {
+@media (max-width: 600px) {
     main {
         padding-right: 10%;
         padding-left: 10%;

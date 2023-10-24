@@ -56,15 +56,16 @@
     position: relative;
 }
 
-.date-established {
+/* .date-established {
     font-size: 14px;
     color: black;
     
-}
+} */
 
 .views-date {
     font-size: 14px;
-    color: black;
+    color: white;
+    padding-left: 10px;
 }
 
 .video-info {
