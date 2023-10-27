@@ -149,6 +149,13 @@ add padding to search-bar-container
     font-size: 33px;
 }
 
+@media (max-width: 600px) {
+    .search-bar::placeholder {
+        
+        font-size: 18px;
+    }
+}
+
 .search-button {
     height: auto;
     width: 10%;
