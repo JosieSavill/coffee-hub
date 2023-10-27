@@ -10,6 +10,16 @@
 Technologies used in building this site were HTML, CSS and JavaScript.  
 <br>
 
+## *GitHub Repository*  
+
+[Link Here](https://github.com/JosieSavill/coffee-hub)
+<br>
+<br>
+
+## *Deployed Application URL on GitHub Pages*
+
+[Link Here](https://josiesavill.github.io/coffee-hub/)  
+
 ## *Description*  
 
 When entering the site, the viewer is presented with header containing the site logo, search bar, navbar of clickable icons, sidebar of  
@@ -26,20 +36,9 @@ by the client and providing the client with the ability to continuously update t
 Another feature will be databases linded tothe sidebar icons that will provide viewers with the ability to build lists of favorites and access various database libraries.  
 
 
-## *Instructions*  
-<br>
 
-To view the site click on  GitHub deployed link at bottom of README.  
 
-## *GitHub Repository*  
 
-[Link Here](https://github.com/JosieSavill/coffee-hub)
-<br>
-<br>
-
-## *Deployed Application URL on GitHub Pages*
-
-[Link Here](https://josiesavill.github.io/coffee-hub/)  
 
 
  
