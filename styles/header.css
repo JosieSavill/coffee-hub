@@ -121,18 +121,6 @@
     column-gap: 0;
 }
 
-/*
-remove all the borders
-remove all the height percentge to auto
-border roundness to the parent div
-.search-bar-container
-add padding to search-bar-container
-
-
-
-
-*/
-
 .search-bar {
     flex: 1;
     height: auto;
