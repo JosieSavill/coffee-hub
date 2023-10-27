@@ -3,7 +3,9 @@
 
 <br>
 
-![Desktop Img](./thumbnails/coffee-hub-desktop.png) 
+![Desktop Img](./styles/coffeehubdesktop.png) 
+
+
 
  COFFEE HUB is a place where gourmet coffee houses can be located when on the go.  
  
@@ -19,6 +21,8 @@ Technologies used in building this site were HTML, CSS and JavaScript.
 ## *Deployed Application URL on GitHub Pages*
 
 [Link Here](https://josiesavill.github.io/coffee-hub/)  
+
+![Desktop Img](./styles/coffeehubmobile.png) 
 
 ## *Description*  
 
