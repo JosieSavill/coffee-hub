@@ -146,7 +146,7 @@ add padding to search-bar-container
 
 .search-bar::placeholder {
     font-family: Roboto, Arial;
-    font-size: 12px;
+    font-size: 33px;
 }
 
 .search-button {
@@ -194,9 +194,6 @@ add padding to search-bar-container
 @media (max-width: 600px) {
     .voice-search-button {
         width: 40px;
-       
-        
-
     }
 }
 
@@ -204,7 +201,6 @@ add padding to search-bar-container
     height: 100%;
     padding: 5%;
 }
-
 
 .right-section {
     width: 30%;
