@@ -1,5 +1,7 @@
 # **COFFEE HUB**
 ---
+SASS
+sass --watch style.scss style.css  --style compressed
 
 <br>
 

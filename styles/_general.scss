@@ -5,11 +5,6 @@ p {
     
 }
 
-*{
-    box-sizing: border-box;
-}
-
-
 body {
     font-family: Roboto, Arial;
     width: 100%;
@@ -41,6 +36,11 @@ main {
         padding-left: 14%;
     }
 } 
+
+
+// *{
+//     border:solid thin red;
+// }
 
     
 
